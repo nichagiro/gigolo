@@ -65,7 +65,7 @@ a {text-decoration:none;}
 .background {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   overflow: hidden;
   will-change: transform;
   -webkit-backface-visibility: hidden;
