@@ -132,6 +132,16 @@ a {text-decoration:none;}
   z-index: 1;
 }
 
+
+
+.imgServ{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 200%;
+}
+
 .content-wrapper {
 	height: 100vh;
 	display: -webkit-box;
@@ -622,8 +632,7 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
     position: fixed;
     display: table;
     vertical-align: middle;
-    top: 32%;
-    left: 12%;
+  
 	
 }
 .logoarea .intro h1 span.small {
@@ -648,11 +657,11 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
 
 .pagearea {
 	float:right;
-    width: 42%;
-    max-width: 100%;
-	min-height:100vh;
-    margin: 0px auto;
-    margin-right: 0;
+  width: 42%;
+  max-width: 100%;
+	min-height:88vh;
+  margin: 0px auto;
+  margin-right: 0;
 	background-color: rgba(0,0,0,0.8);
 	color: rgba(255,255,255,0.5);
 	font-size: 15px;
@@ -688,6 +697,18 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
 	position: absolute;
     top: 95px;
 }
+
+.btn-tema{
+  font-style: italic;
+  background-color: rgba(230, 33, 97, 0.48);
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 5px 20px;
+  margin-top: 10px;
+margin-bottom:10px;
+}
+
 .pagearea a.readmore {
 	font-style: italic;
     background-color: rgba(230, 33, 97, 0.48);
@@ -1141,6 +1162,14 @@ p.comment-form-email, p.comment-form-author, p.comment-form-url {
 }
 /* Responsive */
 @media screen and (max-width:767px) {
+.imgServ{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
 	.pagearea, .logoarea {
 			width:100%;
 			clear:both;
