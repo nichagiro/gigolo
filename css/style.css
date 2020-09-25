@@ -28,6 +28,49 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.fondoModel{
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 400px;
+  background: url('../img/fondoModelos.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.fondoModel p{
+  height: 100%;
+  background: rgba(0,0,0,.5);
+}
+
+.fondoModelHom{
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 400px;
+  background: url('../img/fondModHom.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.fondoModelHom p{
+  height: 100%;
+  background: rgba(0,0,0,.5);
+}
+
+.fondoModelMuj{
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 400px;
+  background: url('../img/fondoModelMujer.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.fondoModelMuj p{
+  height: 100%;
+  background: rgba(0,0,0,.7);
+}
+
 body {
 	line-height: 1.7;
 	font-weight:300;
@@ -1039,7 +1082,9 @@ nav li a:hover {
 }	
 	
 	
-	
+.footericons a i:hover{
+  color:blue;
+}	
 	
 	
 	
