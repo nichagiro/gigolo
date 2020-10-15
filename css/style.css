@@ -777,6 +777,14 @@ margin-bottom:10px;
 	margin-bottom:10px;
 }
 
+.pagearea a.readmore:hover {
+  background: #8f064f;
+}
+
+.btn-tema:hover{
+  background: #8f064f;
+}
+
 .textwhite {color:#fff;}
 .textmagenta {color: #F50986;}
 
