@@ -732,6 +732,13 @@ a.map {border-bottom: 1px dashed;    color: #fff;}
     color: rgba(255,255,255,0.7);
 	letter-spacing: 1px;
 }
+
+.pagearea h2.entry-title{
+	font-family: Oswald;
+    font-size: 21px;
+    color: rgba(255,255,255,0.7);
+	letter-spacing: 1px;
+}
 .pagearea h1.page-headline {
     margin-bottom: 0;
     color: #fff;
