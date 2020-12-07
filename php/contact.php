@@ -4,15 +4,25 @@ $email = $_POST['email'];
 $name = $_POST['name'];
 $msg = $_POST['comment'];
 
-$to = $_POST['email'];
-$subject = "Correo desde pagina web";
-$message = "Nombre: $name"."\nEmail: $email"."\nMensaje: $msg";
+if($email == '' | $name == '' | $msg ==''){
 
-$headers = "From: nicolaschamorro@cisde.co";
+    echo json_encode('error');
 
-mail($to, $subject, $message, $headers);
+}   else {
 
-header('Location:../index.html');
+// $to = $_POST['email'];
+// $subject = "Correo desde pagina web";
+// $message = "Nombre: $name"."\nEmail: $email"."\nMensaje: $msg";
+
+// $headers = "From: nicolaschamorro@cisde.co";
+
+// mail($to, $subject, $message, $headers);
+
+echo json_encode ('ok');
+
+}
+
+
 
 
 ?>

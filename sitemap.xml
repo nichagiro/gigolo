@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://clubsadolobo.com</loc>
+            <changefreq>monthly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://clubsadolobo.com/Servicio.html</loc>
+            <changefreq>monthly</changefreq>
+            <priority>0.9</priority>
+        </url>
+        <url>
+            <loc>https://clubsadolobo.com/modelos/hombres.html</loc>
+            <changefreq>monthly</changefreq>
+            <priority>0.7</priority>
+        </url>
+        <url>
+            <loc>https://clubsadolobo.com/modelos/mujeres.html</loc>
+            <changefreq>monthly</changefreq>
+            <priority>0.7</priority>
+        </url>
+        <url>
+            <loc>https://clubsadolobo.com/modelos/modelos.html</loc>
+            <changefreq>monthly</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://clubsadolobo.com/tienda/tienda.html</loc>
+            <changefreq>monthly</changefreq>
+            <priority>0.6</priority>
+        </url>
+    </urlset>

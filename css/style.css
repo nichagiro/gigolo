@@ -1286,11 +1286,56 @@ p.comment-form-email, p.comment-form-author, p.comment-form-url {
 		 	height: 300px;
 			 margin:0px auto;
 	}
-	 .pricingbadge {
-			 width:250px;
-			 max-width:100%;
-			 height:250px;
-			 margin:0px auto;
-			 padding: 30px 30px;
+  .pricingbadge {
+      width:250px;
+      max-width:100%;
+      height:250px;
+      margin:0px auto;
+      padding: 30px 30px;
+  }
+  
+  .p-services{
+    padding-left: 1rem;
+    padding-right: 1rem !important;
+    width: 90% !important;
+
+  }
+
+  .fondoService{
+    height: 400px;
+  }
+
+  .iconstartitle{
+    display: none !important;
+  }
+
+  .pagearea h1.page-headline:after {
+    margin-left: 0px;
 	}
+
 }
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .p-services{
+    padding-left: 1rem;
+    padding-right: 1rem !important;
+    width: 90% !important;
+    padding-top:2rem;
+    margin: auto !important;
+  }
+
+  .iconstartitle{
+    display: none !important;
+  }
+
+  .pagearea h1.page-headline:after {
+    margin-left: 0px;
+  }
+
+  .fondoService{
+    height: 700px;
+  }
+
+
+}
+
